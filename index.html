@@ -1,16 +1,143 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
+  <title>ONE8 Shoes Launch</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-  <br><br>
-  <button class="bg-sky-500 hover:bg-sky-700 ...">Save changes</button>
+<body class="bg-black text-white">
+
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center px-8 py-5 bg-black border-b border-gray-800">
+    <h1 class="text-3xl font-bold text-red-500">ONE8</h1>
+
+    <ul class="hidden md:flex gap-8 text-gray-300">
+      <li><a href="#" class="hover:text-red-500">Home</a></li>
+      <li><a href="#" class="hover:text-red-500">Collection</a></li>
+      <li><a href="#" class="hover:text-red-500">About</a></li>
+      <li><a href="#" class="hover:text-red-500">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex items-center justify-center px-8">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+
+      <!-- Left -->
+      <div>
+        <p class="text-red-500 uppercase tracking-widest mb-3">
+          Virat Kohli's Latest Launch
+        </p>
+
+        <h1 class="text-5xl md:text-7xl font-extrabold leading-tight">
+          ONE8 <span class="text-red-500">Sneakers</span>
+        </h1>
+
+        <p class="text-gray-400 mt-6 text-lg">
+          Experience speed, comfort and style with the latest ONE8
+          footwear collection inspired by Virat Kohli's winning mindset.
+        </p>
+
+        <div class="mt-8 flex gap-4">
+          <button
+            class="bg-red-500 hover:bg-red-600 px-8 py-3 rounded-xl font-semibold">
+            Buy Now
+          </button>
+
+          <button
+            class="border border-gray-600 hover:border-red-500 px-8 py-3 rounded-xl">
+            Explore
+          </button>
+        </div>
+
+        <div class="flex gap-10 mt-10">
+          <div>
+            <h2 class="text-3xl font-bold">50K+</h2>
+            <p class="text-gray-500">Pre Orders</p>
+          </div>
+
+          <div>
+            <h2 class="text-3xl font-bold">4.9★</h2>
+            <p class="text-gray-500">Rating</p>
+          </div>
+
+          <div>
+            <h2 class="text-3xl font-bold">100%</h2>
+            <p class="text-gray-500">Comfort</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right -->
+      <div class="relative flex justify-center">
+
+        <div
+          class="absolute w-72 h-72 bg-red-600 blur-3xl opacity-40 rounded-full">
+        </div>
+
+        <img
+          src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=900"
+          alt="shoe"
+          class="relative z-10 w-[500px] hover:scale-105 transition duration-500">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="py-20 px-8 bg-zinc-950">
+    <h2 class="text-center text-4xl font-bold mb-12">
+      Why Choose ONE8?
+    </h2>
+
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+
+      <div class="bg-black p-8 rounded-2xl border border-gray-800">
+        <h3 class="text-2xl font-bold text-red-500 mb-3">Premium Build</h3>
+        <p class="text-gray-400">
+          High-quality material for maximum durability and performance.
+        </p>
+      </div>
+
+      <div class="bg-black p-8 rounded-2xl border border-gray-800">
+        <h3 class="text-2xl font-bold text-red-500 mb-3">Athlete Tested</h3>
+        <p class="text-gray-400">
+          Designed with sports performance and comfort in mind.
+        </p>
+      </div>
+
+      <div class="bg-black p-8 rounded-2xl border border-gray-800">
+        <h3 class="text-2xl font-bold text-red-500 mb-3">Stylish Look</h3>
+        <p class="text-gray-400">
+          Modern design perfect for casual and athletic wear.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-24 text-center">
+    <h2 class="text-5xl font-bold mb-6">
+      Step Into Greatness
+    </h2>
+
+    <p class="text-gray-400 max-w-2xl mx-auto mb-8">
+      Join thousands of fans who have already embraced the ONE8 lifestyle.
+    </p>
+
+    <button
+      class="bg-red-500 hover:bg-red-600 px-10 py-4 rounded-xl text-lg font-semibold">
+      Shop Collection
+    </button>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-800 py-6 text-center text-gray-500">
+    © 2026 ONE8 Shoes | Inspired by Virat Kohli
+  </footer>
 
 </body>
 </html>
